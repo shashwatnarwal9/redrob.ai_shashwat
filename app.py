@@ -16,8 +16,30 @@ st.set_page_config(page_title="Redrob Candidate Ranker", layout="wide")
 st.title("Redrob - Candidate Ranker")
 st.caption("Rule-based, CPU-only. No LLM or network calls at ranking time.")
 
-uploaded = st.file_uploader("Candidate sample (.json array or .jsonl)",
-                            type=["json", "jsonl"])
+with st.expander("How to rank your own candidates", expanded=True):
+    st.markdown(
+        """
+1. **Upload a candidate file** below — a `.json` array or a `.jsonl` file of up
+   to ~100 candidate records. Each record must follow `candidate_schema.json`
+   from the hackathon bundle (the same shape as `sample_candidates.json`):
+   `candidate_id`, `profile`, `career_history`, `education`, `skills`,
+   `redrob_signals`.
+2. **Set how many to rank** with the slider, then click **Rank**.
+3. **Read the table:** `rank`, `candidate_id`, `title`, `years`, fit `score`
+   (0-1), and a one-line `reasoning` for each candidate.
+4. **Download** the result as a `submission.csv`.
+
+*No file?* Just click **Rank** without uploading to see it run on the bundled
+50-candidate sample. The full submission (`CNMD.csv`) is produced separately by
+`rank.py` on the 100K pool — this demo verifies the same code runs end-to-end on
+a small sample.
+        """
+    )
+
+uploaded = st.file_uploader(
+    "Candidate file (.json array or .jsonl, up to ~100 records)",
+    type=["json", "jsonl"],
+)
 top_k = st.slider("How many to rank", 5, 100, 20)
 
 
@@ -31,7 +53,7 @@ def _load(file):
     return json.loads(raw)
 
 
-if st.button("Rank", type="primary") or uploaded is None:
+if st.button("Rank", type="primary"):
     cands = _load(uploaded)
 
     scored, max_active = [], ""
