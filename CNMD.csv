@@ -1,0 +1,101 @@
+candidate_id,rank,score,reasoning
+CAND_0068811,1,0.9900,Applied ML Engineer with 8y experience; ranking/retrieval/search experience and vector search (Pinecone/Qdrant/Weaviate).
+CAND_0010257,2,0.9516,"Senior Data Scientist with 6y experience; ranking/retrieval/search experience and vector search (Qdrant/Milvus/Opensearch), though 120d notice."
+CAND_0064326,3,0.8977,Search Engineer with 8y experience; ranking/retrieval/search experience and vector search (Pinecone/Weaviate/Milvus).
+CAND_0079387,4,0.8484,Ai Engineer with 7y experience - ranking/retrieval/search experience and vector search (Faiss/Pinecone/Opensearch).
+CAND_0011162,5,0.8464,"Strong fit: Recommendation Systems Engineer with 6y experience, with ranking/retrieval/search experience and vector search (Faiss/Pinecone/Weaviate)."
+CAND_0050454,6,0.8369,Ai Engineer with 7y experience; ranking/retrieval/search experience and vector search (Faiss/Qdrant/Elasticsearch).
+CAND_0098846,7,0.8323,"Strong fit: Ai Engineer with 8y experience, with ranking/retrieval/search experience and vector search (Pinecone/Qdrant)."
+CAND_0069905,8,0.8022,"Strong fit: Applied ML Engineer with 7y experience, with ranking/retrieval/search experience and vector search (Faiss/Pinecone/Weaviate)."
+CAND_0017960,9,0.7648,"Strong fit: Recommendation Systems Engineer with 8y experience, with ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant)."
+CAND_0083879,10,0.7082,"Strong fit: Machine Learning Engineer with 7y experience, with ranking/retrieval/search experience and vector search (Faiss/Milvus)."
+CAND_0070398,11,0.7005,"Machine Learning Engineer with 7y experience; ranking/retrieval/search experience and vector search (Faiss/Elasticsearch), though 120d notice."
+CAND_0042029,12,0.6961,"Strong fit: Senior Data Scientist with 6y experience, with ranking/retrieval/search experience and vector search (Faiss/Pinecone/Weaviate)."
+CAND_0014440,13,0.6783,Recommendation Systems Engineer with 6y experience - ranking/retrieval/search experience and vector search (Faiss/Qdrant/Milvus).
+CAND_0041669,14,0.6737,"Strong fit: Recommendation Systems Engineer with 8y experience, with ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant)."
+CAND_0075574,15,0.6698,Machine Learning Engineer with 6y experience - ranking/retrieval/search experience and vector search (Pinecone/Qdrant/Weaviate).
+CAND_0045250,16,0.6611,Applied ML Engineer with 7y experience - ranking/retrieval/search experience and vector search (Qdrant/Milvus).
+CAND_0093912,17,0.6506,Senior Data Scientist with 5y experience; ranking/retrieval/search experience and vector search (Faiss/Milvus/Elasticsearch).
+CAND_0027801,18,0.6484,"Nlp Engineer with 7y experience; ranking/retrieval/search experience and vector search (Faiss/Milvus/Opensearch), though 120d notice."
+CAND_0041610,19,0.6421,Recommendation Systems Engineer with 7y experience; ranking/retrieval/search experience and vector search (Pinecone/Opensearch/Elasticsearch).
+CAND_0039383,20,0.6406,"Strong fit: Applied ML Engineer with 7y experience, with ranking/retrieval/search experience and vector search (Faiss/Elasticsearch)."
+CAND_0050876,21,0.6406,"Strong fit: Applied ML Engineer with 6y experience, with ranking/retrieval/search experience and vector search (Faiss/Qdrant/Opensearch)."
+CAND_0062247,22,0.6180,Ai Engineer with 7y experience; ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant).
+CAND_0018549,23,0.5966,Recommendation Systems Engineer with 7y experience; ranking/retrieval/search experience and vector search (Qdrant/Weaviate/Milvus).
+CAND_0091909,24,0.5796,Machine Learning Engineer with 7y experience - ranking/retrieval/search experience and vector search (Pinecone/Qdrant/Opensearch).
+CAND_0028793,25,0.5654,"Strong fit: Search Engineer with 7y experience, with ranking/retrieval/search experience and vector search (Faiss/Pinecone/Elasticsearch); 120d notice."
+CAND_0039838,26,0.5593,Recommendation Systems Engineer with 5y experience - ranking/retrieval/search experience and vector search (Faiss/Milvus/Opensearch).
+CAND_0010685,27,0.5550,"Strong fit: Nlp Engineer with 7y experience, with ranking/retrieval/search experience and vector search (Faiss/Elasticsearch)."
+CAND_0076831,28,0.5545,Search Engineer with 4y experience - ranking/retrieval/search experience and vector search (Faiss/Weaviate/Milvus).
+CAND_0029367,29,0.5477,Senior Data Scientist with 6y experience; ranking/retrieval/search experience and vector search (Faiss/Pinecone/Elasticsearch).
+CAND_0076163,30,0.5454,"Strong fit: Nlp Engineer with 7y experience, with ranking/retrieval/search experience and vector search (Weaviate/Opensearch/Elasticsearch)."
+CAND_0008425,31,0.5340,Senior NLP Engineer with 8y experience - ranking/retrieval/search experience and vector search (Pinecone/Qdrant).
+CAND_0042506,32,0.5254,"Strong fit: Search Engineer with 4y experience, with ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant)."
+CAND_0074225,33,0.5176,"Strong fit: Machine Learning Engineer with 4y experience, with ranking/retrieval/search experience and vector search (Pinecone/Qdrant/Milvus); 120d notice."
+CAND_0077285,34,0.5096,"Strong fit: Recommendation Systems Engineer with 6y experience, with ranking/retrieval/search experience and vector search (Faiss/Pinecone/Milvus)."
+CAND_0099806,35,0.5026,"Strong fit: Ai Engineer with 5y experience, with ranking/retrieval/search experience and vector search (Faiss/Qdrant/Weaviate)."
+CAND_0044222,36,0.4993,"Strong fit: Ai Engineer with 8y experience, with ranking/retrieval/search experience and vector search (Faiss/Qdrant/Weaviate)."
+CAND_0058575,37,0.4948,Ai Engineer with 6y experience; ranking/retrieval/search experience and vector search (Faiss/Pinecone/Elasticsearch).
+CAND_0078002,38,0.4802,"Strong fit: Machine Learning Engineer with 6y experience, with ranking/retrieval/search experience and vector search (Weaviate)."
+CAND_0011432,39,0.4758,"Strong fit: Senior Data Scientist with 8y experience, with ranking/retrieval/search experience and vector search (Pinecone/Opensearch/Elasticsearch)."
+CAND_0005649,40,0.4397,"Senior Data Scientist with 7y experience - partial fit on ranking/retrieval/search experience and vector search (Faiss/Pinecone/Weaviate), but frequent short tenures."
+CAND_0084819,41,0.4383,"Search Engineer with 4y experience - partial fit on ranking/retrieval/search experience and vector search (Pinecone/Weaviate/Opensearch), but 120d notice."
+CAND_0006418,42,0.4374,Machine Learning Engineer with 6y experience - ranking/retrieval/search experience and vector search (Qdrant/Weaviate/Opensearch).
+CAND_0011687,43,0.4356,"Strong fit: Senior NLP Engineer with 8y experience, with ranking/retrieval/search experience and vector search (Faiss/Pinecone/Weaviate)."
+CAND_0075249,44,0.4349,Applied ML Engineer with 6y experience; ranking/retrieval/search experience and vector search (Faiss/Pinecone/Milvus).
+CAND_0053591,45,0.4296,"Ai Engineer with 5y experience; ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant), though based outside India (canada)."
+CAND_0096142,46,0.4291,Applied ML Engineer with 5y experience: ranking/retrieval/search experience and vector search (Pinecone/Weaviate); 120d notice.
+CAND_0076904,47,0.4186,"Senior Data Scientist with 4y experience; ranking/retrieval/search experience and vector search (Faiss/Weaviate/Opensearch), though based outside India (uk)."
+CAND_0018499,48,0.4174,Senior Machine Learning Engineer with 7y experience - ranking/retrieval/search experience and vector search (Faiss/Pinecone/Weaviate).
+CAND_0001610,49,0.4131,"Machine Learning Engineer with 3y experience; ranking/retrieval/search experience and vector search (Faiss/Pinecone/Milvus), though 3y sits outside the JD's 5-9 band."
+CAND_0000031,50,0.4121,Recommendation Systems Engineer with 6y experience: ranking/retrieval/search experience and vector search (Faiss/Pinecone); frequent short tenures.
+CAND_0027691,51,0.3976,Nlp Engineer with 6y experience - ranking/retrieval/search experience and vector search (Faiss/Weaviate/Elasticsearch).
+CAND_0053695,52,0.3745,Recommendation Systems Engineer with 6y experience - ranking/retrieval/search experience and vector search (Faiss/Pinecone/Elasticsearch).
+CAND_0081053,53,0.3745,"Strong fit: Nlp Engineer with 5y experience, with ranking/retrieval/search experience and vector search (Faiss/Qdrant/Weaviate)."
+CAND_0046064,54,0.3742,"Strong fit: Senior NLP Engineer with 9y experience, with ranking/retrieval/search experience and vector search (Faiss/Pinecone/Opensearch)."
+CAND_0057563,55,0.3654,"Strong fit: Nlp Engineer with 7y experience, with ranking/retrieval/search experience and vector search (Faiss/Opensearch/Elasticsearch)."
+CAND_0054123,56,0.3653,Applied ML Engineer with 5y experience; ranking/retrieval/search experience and vector search (Faiss/Qdrant/Weaviate).
+CAND_0081852,57,0.3633,Senior Data Scientist with 6y experience; ranking/retrieval/search experience and vector search (Pinecone/Weaviate/Milvus).
+CAND_0066999,58,0.3537,Recommendation Systems Engineer with 6y experience; ranking/retrieval/search experience and vector search (Faiss/Pinecone/Opensearch).
+CAND_0081846,59,0.3518,Lead AI Engineer with 7y experience; ranking/retrieval/search experience and vector search (Faiss/Qdrant/Elasticsearch).
+CAND_0065195,60,0.3467,"Strong fit: Search Engineer with 5y experience, with ranking/retrieval/search experience and vector search (Pinecone/Qdrant/Elasticsearch)."
+CAND_0009691,61,0.3439,Applied ML Engineer with 6y experience: ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant); 120d notice.
+CAND_0095619,62,0.3377,"Nlp Engineer with 16y experience - partial fit on ranking/retrieval/search experience and vector search (Pinecone/Weaviate/Elasticsearch), but 16y sits outside the JD's 5-9 band."
+CAND_0079064,63,0.3278,"Senior Data Scientist with 5y experience; ranking/retrieval/search experience and vector search (Faiss/Pinecone/Opensearch), though 120d notice."
+CAND_0071974,64,0.3276,Senior AI Engineer with 8y experience - ranking/retrieval/search experience and vector search (Pinecone/Qdrant/Weaviate).
+CAND_0018722,65,0.3174,"Recommendation Systems Engineer with 7y experience; ranking/retrieval/search experience and vector search (Faiss/Weaviate/Elasticsearch), though based outside India (canada)."
+CAND_0066376,66,0.3165,Applied ML Engineer with 6y experience - ranking/retrieval/search experience and vector search (Faiss/Elasticsearch).
+CAND_0086022,67,0.3139,Senior Applied Scientist with 5y experience; ranking/retrieval/search experience and vector search (Faiss/Pinecone/Elasticsearch).
+CAND_0061265,68,0.3122,"Recommendation Systems Engineer with 7y experience; ranking/retrieval/search experience and vector search (Faiss/Qdrant/Milvus), though 120d notice."
+CAND_0072660,69,0.2987,"Machine Learning Engineer with 7y experience - partial fit on ranking/retrieval/search experience and vector search (Faiss/Opensearch/Elasticsearch), but based outside India (germany)."
+CAND_0061339,70,0.2981,Search Engineer with 4y experience - ranking/retrieval/search experience and vector search (Milvus/Opensearch).
+CAND_0083307,71,0.2957,"Search Engineer with 8y experience - partial fit on ranking/retrieval/search experience and vector search (Faiss/Pinecone/Weaviate), but 120d notice."
+CAND_0061655,72,0.2903,"Strong fit: Machine Learning Engineer with 5y experience, with ranking/retrieval/search experience and vector search (Pinecone/Qdrant/Opensearch)."
+CAND_0036437,73,0.2897,"Strong fit: Search Engineer with 5y experience, with ranking/retrieval/search experience and vector search (Faiss/Weaviate/Milvus)."
+CAND_0010770,74,0.2757,"Recommendation Systems Engineer with 15y experience - partial fit on ranking/retrieval/search experience and vector search (Faiss/Qdrant/Elasticsearch), but 15y sits outside the JD's 5-9 band."
+CAND_0039754,75,0.2752,Senior Applied Scientist with 16y experience: ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant); 16y sits outside the JD's 5-9 band.
+CAND_0078492,76,0.2599,Recommendation Systems Engineer with 5y experience; ranking/retrieval/search experience and vector search (Faiss/Qdrant/Elasticsearch).
+CAND_0054394,77,0.2597,Recommendation Systems Engineer with 4y experience - ranking/retrieval/search experience and vector search (Faiss/Pinecone/Elasticsearch).
+CAND_0007412,78,0.2555,"Applied ML Engineer with 7y experience; ranking/retrieval/search experience and vector search (Pinecone/Milvus), though frequent short tenures and 120d notice."
+CAND_0056881,79,0.2542,Machine Learning Engineer with 4y experience - ranking/retrieval/search experience and vector search (Pinecone/Elasticsearch).
+CAND_0052328,80,0.2411,"Strong fit: Recommendation Systems Engineer with 6y experience, with ranking/retrieval/search experience and vector search (Pinecone/Opensearch)."
+CAND_0036184,81,0.2291,Recommendation Systems Engineer with 6y experience: ranking/retrieval/search experience and vector search (Faiss/Pinecone/Elasticsearch); little explicit ranking-evaluation (NDCG/A-B) signal.
+CAND_0013536,82,0.2130,"Applied ML Engineer with 14y experience - partial fit on ranking/retrieval/search experience and vector search (Faiss/Pinecone/Milvus), but 14y sits outside the JD's 5-9 band."
+CAND_0007460,83,0.2127,"Ai Engineer with 5y experience; ranking/retrieval/search experience and vector search (Weaviate), though 120d notice."
+CAND_0030031,84,0.2039,Ai Engineer with 6y experience - ranking/retrieval/search experience and vector search (Milvus).
+CAND_0049896,85,0.1954,"Search Engineer with 7y experience - partial fit on ranking/retrieval/search experience and vector search (Pinecone), but narrowly behind stronger profiles."
+CAND_0070202,86,0.1920,"Machine Learning Engineer with 5y experience; ranking/retrieval/search experience and vector search (Qdrant), though narrowly behind stronger profiles."
+CAND_0076251,87,0.1902,Search Engineer with 8y experience - only partial: ranking/retrieval/search experience and vector search (Faiss/Weaviate/Elasticsearch); little explicit ranking-evaluation (NDCG/A-B) signal.
+CAND_0095528,88,0.1684,"Senior Data Scientist with 5y experience; ranking/retrieval/search experience and vector search (Qdrant/Opensearch/Elasticsearch), though narrowly behind stronger profiles."
+CAND_0074735,89,0.1500,"Applied ML Engineer with 6y experience; ranking/retrieval/search experience and vector search (Pinecone/Weaviate/Elasticsearch), though narrowly behind stronger profiles."
+CAND_0091534,90,0.1483,"Ai Engineer with 17y experience: ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant), however 17y sits outside the JD's 5-9 band."
+CAND_0006557,91,0.1470,"Nlp Engineer with 8y experience; some ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant), but 120d notice."
+CAND_0013613,92,0.1404,"Machine Learning Engineer with 5y experience; some ranking/retrieval/search experience and vector search (Faiss/Weaviate/Elasticsearch), but based outside India (singapore)."
+CAND_0015528,93,0.1320,"Applied ML Engineer with 7y experience - partial fit on ranking/retrieval/search experience and vector search (Faiss/Weaviate/Opensearch), but narrowly behind stronger profiles."
+CAND_0052335,94,0.0975,Applied ML Engineer with 6y experience - only partial: ranking/retrieval/search experience and vector search (Faiss/Pinecone); based outside India (germany).
+CAND_0051292,95,0.0935,Applied ML Engineer with 5y experience: ranking/retrieval/search experience and vector search (Faiss/Pinecone/Elasticsearch); narrowly behind stronger profiles.
+CAND_0044855,96,0.0809,"Senior Data Scientist with 7y experience; ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant), though narrowly behind stronger profiles."
+CAND_0051004,97,0.0768,Senior Data Scientist with 5y experience: ranking/retrieval/search experience and vector search (Pinecone/Qdrant); narrowly behind stronger profiles.
+CAND_0049538,98,0.0755,"Applied ML Engineer with 6y experience; ranking/retrieval/search experience and vector search (Milvus/Opensearch/Elasticsearch), though narrowly behind stronger profiles."
+CAND_0022812,99,0.0583,"Applied ML Engineer with 4y experience - partial fit on ranking/retrieval/search experience and vector search (Faiss/Pinecone/Qdrant), but narrowly behind stronger profiles."
+CAND_0088025,100,0.0500,"Staff Machine Learning Engineer with 9y experience; ranking/retrieval/search experience and vector search (Pinecone/Elasticsearch), though narrowly behind stronger profiles."

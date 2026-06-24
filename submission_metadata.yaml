@@ -1,0 +1,85 @@
+# Redrob Hackathon — Submission Metadata
+# Mirrors the portal metadata (verified at Stage 3). Fill the TODO fields.
+
+team_name: "CNMD"
+
+primary_contact:
+  name: "Shashwat Narwal"
+  email: "shashwatnarwal9@gmail.com"
+  phone: "+91-9876477221"
+
+team_members:
+  - name: "Shashwat Narwal"
+    email: "shashwatnarwal9@gmail.com"
+    role: "Team Lead / ML Engineer"
+  - name: "Aashna Verma"
+    email: "vermaaash07@gmail.com"
+    role: "ML Engineer"
+
+# ----------------------------------------------------------------------------
+# Code and reproducibility
+# ----------------------------------------------------------------------------
+github_repo: "https://github.com/shashwatnarwal9/TODO-repo"   # TODO push & set
+sandbox_link: "https://TODO.streamlit.app"   # TODO: deploy app.py on Streamlit Community Cloud
+reproduce_command: "python rank.py --candidates ./candidates.jsonl.gz --out ./submission.csv"
+
+# ----------------------------------------------------------------------------
+# Compute environment
+# ----------------------------------------------------------------------------
+compute:
+  platform: "Local Windows 11 box"
+  cpu_cores: 8
+  ram_gb: 16
+  python_version: "3.11"
+  os: "Windows 11"
+  uses_gpu_for_inference: false        # ranking is CPU-only
+  has_network_during_ranking: false    # zero network calls in rank.py
+  pre_computation_required: false      # no embeddings/model pre-compute needed
+  pre_computation_time_minutes: 0
+
+# ----------------------------------------------------------------------------
+# AI tools declaration (transparency only; not penalized)
+# ----------------------------------------------------------------------------
+ai_tools_used:
+  - "Claude"
+ai_usage_summary: |
+  Claude was used for architectural discussion, code review, and drafting the
+  rule/keyword knowledge base from the job description. All design decisions
+  (coherence gate, honeypot consistency checks, behavioral modifier, weights)
+  were directed and verified by the team. No candidate data is sent to any LLM,
+  and the ranking step makes no network calls of any kind.
+
+# ----------------------------------------------------------------------------
+# Approach summary (<=200 words)
+# ----------------------------------------------------------------------------
+methodology_summary: |
+  A coherence-gated, rule-based fit ranker — no LLM or embedding calls at
+  ranking time (CPU-only, no network, stdlib-only, ~105s for 100K).
+
+  Per candidate we build three separate text views: identity (headline+title+
+  summary, what they CLAIM), evidence (career-history descriptions, what they
+  DID), and skills (most easily gamed). A coherence gate detects whether the
+  person is actually an engineer or a non-tech professional who stuffed AI
+  keywords into their skills list — the dataset's central trap — and multiplies
+  down the latter. Technical fit is a weighted blend of the JD's "absolutely
+  need" signals (retrieval/ranking/search, embeddings, vector DBs, evaluation
+  frameworks), product-vs-services exposure, applied-ML tenure (years in ML
+  roles, not just total), a skill-trust score that weights relevant skills by
+  endorsements + months + Redrob assessment, the 5-9y band, and location.
+  Explicit penalties cover the JD's "do NOT want" list: CV/speech-only,
+  consulting-only careers, recent-GenAI-without-ML-depth, job-hopping,
+  management/architecture titles without recent hands-on code, and outside
+  India. A behavioral multiplier down-weights dormant / low-response profiles.
+  Internally-inconsistent profiles (skill used longer than the career; expert
+  with 0 months; role outlasting the career) are flagged as honeypots and
+  floored. Matching uses word-boundary regex to avoid substring false positives.
+
+# ----------------------------------------------------------------------------
+# Declarations
+# ----------------------------------------------------------------------------
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: true

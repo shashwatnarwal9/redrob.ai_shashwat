@@ -1,0 +1,9 @@
+# ---------------------------------------------------------------------------
+# The RANKING STEP (rank.py) has ZERO third-party dependencies.
+# It runs on the Python 3.9+ standard library only -> trivially reproducible
+# inside the Stage-3 sandbox (CPU-only, no network, <5 min, <16 GB).
+#
+# The package below is ONLY for the optional hosted sandbox demo (app.py).
+# It is NOT imported by rank.py and is not needed to reproduce submission.csv.
+# ---------------------------------------------------------------------------
+streamlit>=1.30
