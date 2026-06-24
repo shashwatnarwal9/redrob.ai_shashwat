@@ -1,5 +1,5 @@
 # Redrob Hackathon — Submission Metadata
-# Mirrors the portal metadata (verified at Stage 3). Fill the TODO fields.
+# Mirrors the portal metadata (verified at Stage 3).
 
 team_name: "CNMD"
 
@@ -12,6 +12,7 @@ team_members:
   - name: "Shashwat Narwal"
     email: "shashwatnarwal9@gmail.com"
     role: "Team Lead / ML Engineer"
+    
   - name: "Aashna Verma"
     email: "vermaaash07@gmail.com"
     role: "ML Engineer"
@@ -19,7 +20,7 @@ team_members:
 # ----------------------------------------------------------------------------
 # Code and reproducibility
 # ----------------------------------------------------------------------------
-github_repo: "https://github.com/shashwatnarwal9/TODO-repo"   # TODO push & set
+github_repo: "https://github.com/shashwatnarwal9/redrob.ai_shashwat"
 sandbox_link: "https://redrobaishashwat-335qz2vykcqsmvpxpxixip.streamlit.app/"
 reproduce_command: "python rank.py --candidates ./candidates.jsonl.gz --out ./submission.csv"
 
