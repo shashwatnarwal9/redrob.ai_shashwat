@@ -20,7 +20,7 @@ team_members:
 # Code and reproducibility
 # ----------------------------------------------------------------------------
 github_repo: "https://github.com/shashwatnarwal9/TODO-repo"   # TODO push & set
-sandbox_link: "https://TODO.streamlit.app"   # TODO: deploy app.py on Streamlit Community Cloud
+sandbox_link: "https://redrobaishashwat-335qz2vykcqsmvpxpxixip.streamlit.app/"
 reproduce_command: "python rank.py --candidates ./candidates.jsonl.gz --out ./submission.csv"
 
 # ----------------------------------------------------------------------------
