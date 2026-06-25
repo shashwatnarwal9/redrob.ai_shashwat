@@ -1,5 +1,4 @@
 # Redrob Hackathon — Submission Metadata
-# Mirrors the portal metadata (verified at Stage 3).
 
 team_name: "CNMD"
 
@@ -38,17 +37,6 @@ compute:
   pre_computation_required: false      # no embeddings/model pre-compute needed
   pre_computation_time_minutes: 0
 
-# ----------------------------------------------------------------------------
-# AI tools declaration (transparency only; not penalized)
-# ----------------------------------------------------------------------------
-ai_tools_used:
-  - "Claude"
-ai_usage_summary: |
-  Claude was used for architectural discussion, code review, and drafting the
-  rule/keyword knowledge base from the job description. All design decisions
-  (coherence gate, honeypot consistency checks, behavioral modifier, weights)
-  were directed and verified by the team. No candidate data is sent to any LLM,
-  and the ranking step makes no network calls of any kind.
 
 # ----------------------------------------------------------------------------
 # Approach summary (<=200 words)

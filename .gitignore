@@ -4,7 +4,6 @@ __pycache__/
 venv/
 .DS_Store
 
-# Large pool + generated working outputs (regenerate via rank.py)
 candidates.jsonl
 candidates.jsonl.gz
 submission.csv

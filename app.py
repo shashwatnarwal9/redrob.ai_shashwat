@@ -1,4 +1,3 @@
-"""Streamlit demo: run the ranker on a small uploaded candidate sample."""
 
 import json
 import time
